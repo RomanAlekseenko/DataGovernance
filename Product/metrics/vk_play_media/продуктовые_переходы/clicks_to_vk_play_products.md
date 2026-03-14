@@ -65,7 +65,7 @@ TBD: зафиксировать SLA обновления витрины.
 * Динамика переходов сопоставима с изменением трафика Media и объема материалов с CTA.
 
 ## Связанные метрики
-* [Просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/article_views.md)
+* [Просмотры статей](../потребление_контента/article_views.md)
 * TBD: CTR из статьи в страницу игры.
 * TBD: Media-assisted conversions.
 

@@ -59,8 +59,8 @@ TBD: зафиксировать SLA обновления витрины.
 * Сумма новых и вернувшихся читателей не превышает число уникальных читателей периода.
 
 ## Связанные метрики
-* [Уникальные читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/unique_readers.md)
-* [Вернувшиеся читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/returned_readers.md)
+* [Уникальные читатели](unique_readers.md)
+* [Вернувшиеся читатели](returned_readers.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует формализации после фиксации правила первого события и глубины исторических данных.

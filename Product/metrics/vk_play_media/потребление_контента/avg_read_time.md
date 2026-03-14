@@ -61,9 +61,9 @@ TBD: зафиксировать SLA обновления витрины.
 * Метод измерения времени не менялся без версии определения.
 
 ## Связанные метрики
-* [Просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/article_views.md)
-* [Дочитывания](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/engaged_reads.md)
-* [Средняя глубина скролла](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/вовлеченность/avg_scroll_depth.md)
+* [Просмотры статей](article_views.md)
+* [Дочитывания](engaged_reads.md)
+* [Средняя глубина скролла](../вовлеченность/avg_scroll_depth.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует фиксации метода измерения active read time.

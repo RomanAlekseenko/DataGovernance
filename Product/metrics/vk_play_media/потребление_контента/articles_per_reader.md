@@ -61,8 +61,8 @@ TBD: зафиксировать SLA обновления витрины.
 * При изменении числа публикаций интерпретация сопровождается контентным контекстом.
 
 ## Связанные метрики
-* [Уникальные просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/unique_article_views.md)
-* [Уникальные читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/unique_readers.md)
+* [Уникальные просмотры статей](unique_article_views.md)
+* [Уникальные читатели](../аудиторные/unique_readers.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует фиксации периода агрегации и правил дедупликации.

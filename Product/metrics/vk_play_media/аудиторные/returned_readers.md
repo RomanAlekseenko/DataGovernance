@@ -57,8 +57,8 @@ TBD: зафиксировать SLA обновления витрины.
 * Изменение returned share объяснимо контентным циклом или источниками трафика.
 
 ## Связанные метрики
-* [Уникальные читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/unique_readers.md)
-* [Новые читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/new_readers.md)
+* [Уникальные читатели](unique_readers.md)
+* [Новые читатели](new_readers.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует формализации после фиксации правила historical lookback и authoritative source.

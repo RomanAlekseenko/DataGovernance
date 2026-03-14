@@ -64,9 +64,9 @@ TBD: зафиксировать SLA обновления витрины.
 * Версия бизнес-правила дочитывания зафиксирована.
 
 ## Связанные метрики
-* [Просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/article_views.md)
-* [Среднее время чтения](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/avg_read_time.md)
-* [Средняя глубина скролла](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/вовлеченность/avg_scroll_depth.md)
+* [Просмотры статей](article_views.md)
+* [Среднее время чтения](avg_read_time.md)
+* [Средняя глубина скролла](../вовлеченность/avg_scroll_depth.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует формализации порогов engaged read и authoritative source для входных событий.

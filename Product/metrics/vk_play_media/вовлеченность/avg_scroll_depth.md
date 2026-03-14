@@ -57,8 +57,8 @@ TBD: зафиксировать SLA обновления витрины.
 * Метод измерения скролла зафиксирован в версии определения.
 
 ## Связанные метрики
-* [Среднее время чтения](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/avg_read_time.md)
-* [Дочитывания](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/engaged_reads.md)
+* [Среднее время чтения](../потребление_контента/avg_read_time.md)
+* [Дочитывания](../потребление_контента/engaged_reads.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует фиксации метода измерения scroll depth и правила агрегации по просмотру.

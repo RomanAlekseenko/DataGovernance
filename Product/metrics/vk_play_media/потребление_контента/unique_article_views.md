@@ -56,8 +56,8 @@ TBD: зафиксировать SLA обновления витрины.
 * Отношение unique views к просмотрам не меняется резко без бизнес-объяснения.
 
 ## Связанные метрики
-* [Просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/article_views.md)
-* [Уникальные читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/unique_readers.md)
+* [Просмотры статей](article_views.md)
+* [Уникальные читатели](../аудиторные/unique_readers.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует фиксации user id, material id и периода дедупликации.

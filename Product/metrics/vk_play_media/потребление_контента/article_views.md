@@ -58,9 +58,9 @@ TBD: зафиксировать SLA обновления витрины.
 * Доля дублей и событий без material id не превышает допустимый порог.
 
 ## Связанные метрики
-* [Уникальные просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/unique_article_views.md)
-* [Статей на читателя](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/articles_per_reader.md)
-* [Среднее время чтения](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/avg_read_time.md)
+* [Уникальные просмотры статей](unique_article_views.md)
+* [Статей на читателя](articles_per_reader.md)
+* [Среднее время чтения](avg_read_time.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует фиксации события просмотра и правила дедупликации.

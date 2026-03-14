@@ -44,16 +44,36 @@
 ## Первоочередные метрики
 Для первого этапа описания рекомендуется в первую очередь согласовать и формализовать следующие метрики:
 
-* [Уникальные читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/unique_readers.md)
-* [Новые читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/new_readers.md)
-* [Вернувшиеся читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/returned_readers.md)
-* [Просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/article_views.md)
-* [Уникальные просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/unique_article_views.md)
-* [Статей на читателя](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/articles_per_reader.md)
-* [Среднее время чтения](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/avg_read_time.md)
-* [Дочитывания](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/engaged_reads.md)
-* [Средняя глубина скролла](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/вовлеченность/avg_scroll_depth.md)
-* [Переходы из статьи в продукты VK Play](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/продуктовые_переходы/clicks_to_vk_play_products.md)
+* [Уникальные читатели](аудиторные/unique_readers.md)
+* [Новые читатели](аудиторные/new_readers.md)
+* [Вернувшиеся читатели](аудиторные/returned_readers.md)
+* [Просмотры статей](потребление_контента/article_views.md)
+* [Уникальные просмотры статей](потребление_контента/unique_article_views.md)
+* [Статей на читателя](потребление_контента/articles_per_reader.md)
+* [Среднее время чтения](потребление_контента/avg_read_time.md)
+* [Дочитывания](потребление_контента/engaged_reads.md)
+* [Средняя глубина скролла](вовлеченность/avg_scroll_depth.md)
+* [Переходы из статьи в продукты VK Play](продуктовые_переходы/clicks_to_vk_play_products.md)
+
+## Второй слой метрик
+После согласования базовых определений рекомендуется описать второй слой метрик, который позволит анализировать качество контента, социальную вовлеченность и управлять контентным планом.
+
+### Вовлеченность
+* [Лайки](вовлеченность/likes.md)
+* [Комментарии](вовлеченность/comments.md)
+* [Репосты](вовлеченность/reposts.md)
+* [Engagement Rate](вовлеченность/engagement_rate.md)
+
+### Эффективность контента
+* [Просмотры на статью](эффективность_контента/views_per_article.md)
+* [CTR из статьи в страницу игры](эффективность_контента/ctr_article_to_game.md)
+* [Топ категорий](эффективность_контента/top_categories.md)
+* [Топ авторов](эффективность_контента/top_authors.md)
+
+### Контентное производство
+* [Опубликованные статьи](контентное_производство/published_articles.md)
+* [Статьи по категориям](контентное_производство/articles_by_category.md)
+* [Свежесть контента](контентное_производство/content_freshness.md)
 
 ## Обязательные вопросы для согласования
 

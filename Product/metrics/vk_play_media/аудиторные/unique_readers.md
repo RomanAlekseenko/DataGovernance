@@ -59,9 +59,9 @@ TBD: зафиксировать SLA обновления витрины.
 * Итоговое число читателей сопоставимо с контрольным отчетом по трафику Media.
 
 ## Связанные метрики
-* [Новые читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/new_readers.md)
-* [Вернувшиеся читатели](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/аудиторные/returned_readers.md)
-* [Просмотры статей](/C:/Users/roman/.cursor/projects/DataGovernance/Product/metrics/vk_play_media/потребление_контента/article_views.md)
+* [Новые читатели](new_readers.md)
+* [Вернувшиеся читатели](returned_readers.md)
+* [Просмотры статей](../потребление_контента/article_views.md)
 
 ## SQL / логика расчета
 Логика расчета описана концептуально и требует формализации в SQL после фиксации источника истины и правила идентификации пользователя.
