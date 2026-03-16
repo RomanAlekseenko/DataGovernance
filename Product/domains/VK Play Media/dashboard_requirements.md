@@ -102,6 +102,16 @@
 | `Publishing Control` | Структура выпуска | [Материалы по категориям](../../metrics/vk_play_media/контентное_производство/материалы_по_категориям.md) | CMS | день, категория | Product Manager / Editorial Lead | После подтверждения категорийного справочника |
 | `Publishing Control` | Вклад свежего контента | [Свежесть контента](../../metrics/vk_play_media/контентное_производство/свежесть_контента.md) | CMS + просмотры | день, категория | Product Manager / Editorial Lead | После подтверждения даты первой публикации |
 
+### 2.7 Revenue Impact
+
+| Дашборд | Виджет | Метрика | Источник | Grain | Owner | Примечание |
+| --- | --- | --- | --- | --- | --- | --- |
+| `Revenue Impact` | Direct revenue from Media | [Выручка после переходов из Media](../../metrics/vk_play_media/выручка/выручка_после_переходов_из_media.md) | transactions + transitions | день, продукт, материал | Product Manager / Monetization | После подтверждения атрибуции |
+| `Revenue Impact` | Paying users from Media | [Платящие пользователи после переходов из Media](../../metrics/vk_play_media/выручка/платящие_пользователи_после_переходов_из_media.md) | transactions + transitions | день, продукт | Product Manager / Monetization | |
+| `Revenue Impact` | Purchase conversion | [Конверсия из перехода в покупку](../../metrics/vk_play_media/выручка/конверсия_из_перехода_в_покупку.md) | transactions + transitions | день, продукт, материал | Product Manager / Monetization | |
+| `Revenue Impact` | Revenue per transition | [Средняя выручка на переход](../../metrics/vk_play_media/выручка/средняя_выручка_на_переход.md) | transactions + transitions | день, продукт, материал | Product Manager / Monetization | |
+| `Revenue Impact` | Session-level revenue | [Выручка после посещения Media](../../metrics/vk_play_media/выручка/выручка_после_посещения_media.md) | transactions + visits | день, продукт | Product Manager / Monetization | Не смешивать с click-confirmed revenue |
+
 ## 3. Analyst Dashboards
 
 ### 3.1 Metric QA / Data Quality
@@ -154,12 +164,23 @@
 | `Publishing Diagnostics` | Публикации по категориям | [Материалы по категориям](../../metrics/vk_play_media/контентное_производство/материалы_по_категориям.md) | CMS | день, категория | Analyst / Editorial | После подтверждения категорийного справочника |
 | `Publishing Diagnostics` | Вклад свежего контента | [Свежесть контента](../../metrics/vk_play_media/контентное_производство/свежесть_контента.md) | CMS + просмотры | день, категория | Analyst / Editorial | После подтверждения даты первой публикации |
 
+### 3.6 Revenue Diagnostics
+
+| Дашборд | Виджет | Метрика | Источник | Grain | Owner | Примечание |
+| --- | --- | --- | --- | --- | --- | --- |
+| `Revenue Diagnostics` | Revenue after click | [Выручка после переходов из Media](../../metrics/vk_play_media/выручка/выручка_после_переходов_из_media.md) | transactions + transitions | день, продукт, материал, transaction | Analyst | |
+| `Revenue Diagnostics` | Revenue after visit | [Выручка после посещения Media](../../metrics/vk_play_media/выручка/выручка_после_посещения_media.md) | transactions + visits | день, продукт, session, transaction | Analyst | |
+| `Revenue Diagnostics` | Paying users | [Платящие пользователи после переходов из Media](../../metrics/vk_play_media/выручка/платящие_пользователи_после_переходов_из_media.md) | transactions + transitions | день, продукт, user | Analyst | |
+| `Revenue Diagnostics` | Purchase conversion | [Конверсия из перехода в покупку](../../metrics/vk_play_media/выручка/конверсия_из_перехода_в_покупку.md) | transactions + transitions | день, product, material | Analyst | |
+| `Revenue Diagnostics` | Revenue per transition | [Средняя выручка на переход](../../metrics/vk_play_media/выручка/средняя_выручка_на_переход.md) | transactions + transitions | день, product, material | Analyst | |
+| `Revenue Diagnostics` | Refund-adjusted diagnostics | refund-adjusted revenue | transactions | день, product, transaction | Analyst | Требует отдельного правила возвратов |
+
 ## Основные фильтры по умолчанию
 Для управленческих дашбордов:
 * период;
 * платформа;
 * категория;
-* продукт, если дашборд связан с переходами.
+* продукт, если дашборд связан с переходами или выручкой.
 
 Для аналитических дашбордов:
 * период;
@@ -170,9 +191,11 @@
 * тип материала;
 * материал;
 * продукт.
+* сценарий атрибуции, если дашборд связан с выручкой.
 
 ## Ограничения
 TBD:
 * часть виджетов publishing-контура останется проектной спецификацией до подтверждения полей CMS;
 * отдельный video/stream-контур не включен в текущие требования;
+* revenue-виджеты останутся проектной спецификацией до подтверждения транзакционного source of truth, user/session matching и правил возвратов;
 * QA-виджеты опираются на технические проверки, а не на отдельные продуктовые метрики каталога.
