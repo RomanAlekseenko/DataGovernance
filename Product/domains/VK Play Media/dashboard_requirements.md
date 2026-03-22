@@ -111,6 +111,12 @@
 | `Revenue Impact` | Purchase conversion | [Конверсия из перехода в покупку](../../metrics/vk_play_media/выручка/конверсия_из_перехода_в_покупку.md) | transactions + transitions | день, продукт, материал | Product Manager / Monetization | |
 | `Revenue Impact` | Revenue per transition | [Средняя выручка на переход](../../metrics/vk_play_media/выручка/средняя_выручка_на_переход.md) | transactions + transitions | день, продукт, материал | Product Manager / Monetization | |
 | `Revenue Impact` | Session-level revenue | [Выручка после посещения Media](../../metrics/vk_play_media/выручка/выручка_после_посещения_media.md) | transactions + visits | день, продукт | Product Manager / Monetization | Не смешивать с click-confirmed revenue |
+| `Revenue Impact` | Assisted revenue | [Assisted revenue after Media](../../metrics/vk_play_media/выручка/assisted_revenue_after_media.md) | transactions + Media events | день, продукт | Product Manager / Monetization | Показывать отдельно от direct и session-level |
+| `Revenue Impact` | Paying users after visit | [Платящие пользователи после посещения Media](../../metrics/vk_play_media/выручка/платящие_пользователи_после_посещения_media.md) | transactions + visits | день, продукт | Product Manager / Monetization | Второй слой post-visit revenue |
+| `Revenue Impact` | Reader to buyer conversion | [Конверсия из читателя в покупателя](../../metrics/vk_play_media/выручка/конверсия_из_читателя_в_покупателя.md) | readers + transactions | день, продукт | Product Manager / Monetization | Не сравнивать напрямую с purchase conversion from transition |
+| `Revenue Impact` | Revenue per reader | [Средняя выручка на читателя](../../metrics/vk_play_media/выручка/средняя_выручка_на_читателя.md) | readers + transactions | день, продукт | Product Manager / Monetization | Второй слой audience monetization |
+| `Revenue Impact` | Average check | [Средний чек по Media-attributed транзакциям](../../metrics/vk_play_media/выручка/средний_чек_по_media_attributed_транзакциям.md) | transactions | день, продукт | Product Manager / Monetization | Transaction-level quality |
+| `Revenue Impact` | ARPPU | [ARPPU по Media-attributed платящим пользователям](../../metrics/vk_play_media/выручка/arppu_по_media_attributed_платящим_пользователям.md) | transactions + paying users | день, продукт | Product Manager / Monetization | Второй слой monetization depth |
 
 ## 3. Analyst Dashboards
 
@@ -173,6 +179,12 @@
 | `Revenue Diagnostics` | Paying users | [Платящие пользователи после переходов из Media](../../metrics/vk_play_media/выручка/платящие_пользователи_после_переходов_из_media.md) | transactions + transitions | день, продукт, user | Analyst | |
 | `Revenue Diagnostics` | Purchase conversion | [Конверсия из перехода в покупку](../../metrics/vk_play_media/выручка/конверсия_из_перехода_в_покупку.md) | transactions + transitions | день, product, material | Analyst | |
 | `Revenue Diagnostics` | Revenue per transition | [Средняя выручка на переход](../../metrics/vk_play_media/выручка/средняя_выручка_на_переход.md) | transactions + transitions | день, product, material | Analyst | |
+| `Revenue Diagnostics` | Assisted revenue | [Assisted revenue after Media](../../metrics/vk_play_media/выручка/assisted_revenue_after_media.md) | transactions + Media events | день, product, transaction | Analyst | Исключать direct и session-level транзакции |
+| `Revenue Diagnostics` | Paying users after visit | [Платящие пользователи после посещения Media](../../metrics/vk_play_media/выручка/платящие_пользователи_после_посещения_media.md) | transactions + visits | день, product, user | Analyst | Post-visit user layer |
+| `Revenue Diagnostics` | Reader to buyer conversion | [Конверсия из читателя в покупателя](../../metrics/vk_play_media/выручка/конверсия_из_читателя_в_покупателя.md) | readers + transactions | день, product, category | Analyst | Reader-layer monetization |
+| `Revenue Diagnostics` | Revenue per reader | [Средняя выручка на читателя](../../metrics/vk_play_media/выручка/средняя_выручка_на_читателя.md) | readers + transactions | день, product, category | Analyst | |
+| `Revenue Diagnostics` | Average check | [Средний чек по Media-attributed транзакциям](../../metrics/vk_play_media/выручка/средний_чек_по_media_attributed_транзакциям.md) | transactions | день, product, transaction | Analyst | |
+| `Revenue Diagnostics` | ARPPU | [ARPPU по Media-attributed платящим пользователям](../../metrics/vk_play_media/выручка/arppu_по_media_attributed_платящим_пользователям.md) | transactions + paying users | день, product, user | Analyst | |
 | `Revenue Diagnostics` | Refund-adjusted diagnostics | refund-adjusted revenue | transactions | день, product, transaction | Analyst | Требует отдельного правила возвратов |
 
 ## Основные фильтры по умолчанию
@@ -195,7 +207,7 @@
 
 ## Ограничения
 TBD:
-* часть виджетов publishing-контура останется проектной спецификацией до подтверждения полей CMS;
+* часть виджетов publishing-контура останется проектной спецификацией до подтверждения полей CMS внешней командой;
 * отдельный video/stream-контур не включен в текущие требования;
 * revenue-виджеты останутся проектной спецификацией до подтверждения транзакционного source of truth, user/session matching и правил возвратов;
 * QA-виджеты опираются на технические проверки, а не на отдельные продуктовые метрики каталога.
